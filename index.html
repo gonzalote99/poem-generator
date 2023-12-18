@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/22b6acbf7a.js" crossorigin="anonymous"></script> 
+  <title>poem generator</title>
+</head>
+<body>
+  <div class="container">
+   <header>
+    <h1 class="header-content">poem generator</h1>
+   </header>
+  <main>
+    <div class="form-container">
+       <form id="poem-generator-form">
+        <input type="text" placeholder="enter topic" autofocus required autocomplete="off" class="instructions" id="user-instructions" />
+        <input type="submit" class="submit-button" />
+
+
+       </form>
+       <div class="hint">ex: Flower, Paris</div>
+    </div>
+    <div class="poem hidden" id="poem"></div>
+  </main>
+   <footer>
+    coded by <a href="https://github.com/gonzalote99?tab=repositories">me <i class="fa-brands fa-github fa-lg"></i></a>
+   </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
